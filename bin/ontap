@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'commander/import'
+require 'beer_bash'
+
+program :version, BeerBash::VERSION
+program :description, 'See what tasty beverages are on tap at your favorite place, directly from your command line.'
+
+default_command :at
+
+command :at do |c|
+  c.syntax = 'ontap at some place'
+  c.description = "See what's on tap at the given place."
+
+  c.action do |args, options|
+    if args.length < 1
+      raise 'Where?'
+    end
+
+    BeerBash.on_tap_at(args * ' ')
+  end
+end
