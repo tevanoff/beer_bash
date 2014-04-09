@@ -26,7 +26,7 @@ module BeerBash
         tap_list = place.on_tap
 
         table = Terminal::Table.new do |t|
-          t.title    = "#{place}, Updated on #{tap_list.updated_at}"
+          t.title    = "#{place} * Updated on #{tap_list.updated_at}"
           t.headings = %w(Beer ABV Format Price)
           t.rows     = tap_list.taps.collect {|beer| [beer.name, beer.abv, beer.format, beer.price]}
           (1..3).each {|idx| t.align_column(idx, :right)}

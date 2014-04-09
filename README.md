@@ -1,4 +1,4 @@
-# BEERBASH
+# beer bash
 
 See what tasty beverages are on tap at your favorite place, directly from your command line.
 
@@ -15,7 +15,7 @@ Currently, this only pulls from BeerMenus, but perhaps that will change...
     $ ontap at the owl farm
 
     +----------------------------------------------------+------+-------------+--------+
-    |                       The Owl Farm, Updated on 03/31/2014                        |
+    |                       The Owl Farm * Updated on 03/31/2014                       |
     +----------------------------------------------------+------+-------------+--------+
     | Beer                                               | ABV  | Format      | Price  |
     +----------------------------------------------------+------+-------------+--------+
@@ -54,7 +54,7 @@ Look at that, the BFM Zymatore is on tap. Why am I at home working on this?
 
 ## Contributing
 
-1. Fork it ( http://github.com/tevanoff/beer_bash )
+1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
