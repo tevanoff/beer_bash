@@ -26,7 +26,7 @@ module BeerBash
 
     Beer = Struct.new(:name, :abv, :format, :price) do
       def on_tap?
-        format =~ /Draft|Cask/
+        format =~ /draft|cask|growler/i
       end
     end
 
