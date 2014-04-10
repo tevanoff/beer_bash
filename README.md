@@ -2,7 +2,7 @@
 
 See what tasty beverages are on tap at your favorite place, directly from your command line.
 
-Currently, this only pulls from BeerMenus, but perhaps that will change...
+This only pulls from BeerMenus currently, but perhaps that will change.
 
 
 ## Installation
@@ -51,6 +51,13 @@ Currently, this only pulls from BeerMenus, but perhaps that will change...
 
 Look at that, the BFM Zymatore is on tap. Why am I at home working on this?
 
+To look up a name with apostrophes and such, use quotes:
+
+    $ ontap at "decicco's"
+
+The 'at' is also optional if you like to keep things short:
+
+    $ ontap double windsor
 
 ## Contributing
 
