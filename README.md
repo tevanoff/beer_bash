@@ -15,7 +15,7 @@ This only pulls from BeerMenus currently, but perhaps that will change.
     $ ontap at the owl farm
 
     +----------------------------------------------------+------+-------------+--------+
-    |                       The Owl Farm * Updated on 03/31/2014                       |
+    |                       The Owl Farm * Updated Today!                              |
     +----------------------------------------------------+------+-------------+--------+
     | Beer                                               | ABV  | Format      | Price  |
     +----------------------------------------------------+------+-------------+--------+

@@ -63,8 +63,9 @@ module BeerBash
         end
 
         def find_updated(page)
-          page.search('//div[contains(@class,"content")]/p[contains(text(),"Updated: ")]')
-              .first.text.strip.match(/Updated: (.*)/)[1] rescue '???'
+          date = page.search('//div[contains(@class,"content")]/p[contains(text(),"Updated: ")]')
+                     .first.text.strip.match(/Updated: (.*)/)[1]
+          Date.strptime(date, '%m/%d/%Y')
         end
 
         def find_taps(page)
